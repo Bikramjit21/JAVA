@@ -1,7 +1,7 @@
 public class Main
 {
 	public static void main(String[] args) {
-        //Strings
+        //String
         String str = "abc";
         System.out.println(str);
         
@@ -21,7 +21,7 @@ public class Main
         String str5 = "opq";
         System.out.println(str5 + "rst");
         
-        // Integers
+        // Integer
         int a = 1;
         System.out.println(a);
         
@@ -41,7 +41,7 @@ public class Main
         int f = 8;
         System.out.println(e + f + 1);
         
-        // Characters
+        // Character
         char ch = 'A';
         System.out.println(ch);
         
@@ -54,7 +54,7 @@ public class Main
         // Will show error
         System.out.println(ch2);
         
-        // Booleans
+        // Boolean
         boolean bo1 = true;
         System.out.println(bo1);
         
@@ -71,7 +71,7 @@ public class Main
         boolean bo5 = false;
         System.out.println(bo4+" or "+bo5);
         
-        // Floats
+        // Float
         float f1 = 9.99f;
         System.out.println(f1);
         
