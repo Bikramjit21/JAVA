@@ -1,0 +1,46 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    // Byte
+        byte by = 100;
+        System.out.println(by);
+        
+        // Short
+        short sh = 10000;
+        System.out.println(sh);
+        
+        // Integer
+        int i = 1000000;
+        System.out.println(i);
+        
+        // Long
+        long l = 100000000;
+        System.out.println(l);
+        
+        // Float
+        float f = 55555.898989989f;
+        System.out.println(f);
+        
+        // Double
+        double d = 1659959.599955995995995d;
+        System.out.println(d);
+        
+        // Use of scientific numbers
+        float f1 = 35e3f;
+        double d1 = 12E4d;
+        System.out.println(f1);
+        System.out.println(d1);
+        
+        // Boolean
+        boolean b = true;
+        System.out.println(b);
+        
+        // Character
+        char ch = 'c';
+        System.out.println(ch);
+        
+        // String
+        String s = "string";
+        System.out.println(s);
+	}
+}
