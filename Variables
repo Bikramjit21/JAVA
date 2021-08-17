@@ -1,0 +1,92 @@
+public class Main
+{
+	public static void main(String[] args) {
+        //Strings
+        String str = "abc";
+        System.out.println(str);
+        
+        String str1 = "abc";
+        str1 = "def";
+        System.out.println(str1);
+        
+        final String str2 = "gh";
+        str2 = "ijk";
+        // This will give error because final value is already initialized before and it can't be changed later.
+        System.out.println(str2);
+        
+        String str3 = "ijk";
+        String str4 = "lmn";
+        System.out.println(str3 + str4);
+        
+        String str5 = "opq";
+        System.out.println(str5 + "rst");
+        
+        // Integers
+        int a = 1;
+        System.out.println(a);
+        
+        int b = 2;
+        b = 3;
+        System.out.println(b);
+        
+        final int c = 4;
+        c = 5;
+        // Will show error
+        System.out.println(c);
+        
+        int d = 6;
+        int e = 7;
+        System.out.println(d + e);
+        
+        int f = 8;
+        System.out.println(e + f + 1);
+        
+        // Characters
+        char ch = 'A';
+        System.out.println(ch);
+        
+        char ch1 = 'B';
+        ch1 = 'C';
+        System.out.println(ch1);
+        
+        final char ch2 = 'D';
+        ch2 = 'E';
+        // Will show error
+        System.out.println(ch2);
+        
+        // Booleans
+        boolean bo1 = true;
+        System.out.println(bo1);
+        
+        boolean bo2 = false;
+        bo2 = true;
+        System.out.println(bo2);
+        
+        final boolean bo3 = true;
+        bo3 = false;
+        // Will show error
+        System.out.println(bo3);
+        
+        boolean bo4 = true;
+        boolean bo5 = false;
+        System.out.println(bo4+" or "+bo5);
+        
+        // Floats
+        float f1 = 9.99f;
+        System.out.println(f1);
+        
+        float f2 = 8.88f;
+        f2 = 7.77f;
+        System.out.println(f2);
+        
+        final float f3 = 7.77f;
+        f3 = 6.66f;
+        // Will show error.
+        System.out.println(f3);
+        
+        float f4 = 5.55f;
+        float f5 = 4.44f;
+        System.out.println(f4 + f5);
+
+	}
+}
