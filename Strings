@@ -1,0 +1,53 @@
+public class Main
+{
+	public static void main(String[] args) {
+	   String str = "abcdefghijklmnopqrstuvwxyz";
+	   System.out.println(str.length());
+	    
+	   String str1 = str.toUpperCase();
+	   System.out.println(str1);
+	   System.out.println(str1.toLowerCase());
+	   System.out.println(str1.indexOf('M'));
+	   System.out.println(str1 + "12345678910");
+	   System.out.println(str1.concat("12345678910"));
+	    
+	   // Special Characters
+	   String str2 = "This is a 'house'";
+	   System.out.println(str2);
+	   // This is will include house with single quotes also as double quotes are superior than single quotes.
+	   
+	   String str3 = 'This is a "house"';
+	   System.out.println(str3);
+	   // This will show error.
+	   
+	   String str4 = "This is a \"house\"";
+	   System.out.println(str4);
+	   
+	   String str5 = "This is a \'hous\'";
+	   System.out.println(str5);
+	    
+	   String str6 = "This is a \\ backslash";
+	   System.out.println(str6);
+	    
+	   String str7 = "It\'s so cool";
+	   System.out.println(str7);
+	    
+     System.out.println("Hello there\n");
+     System.out.println("Hi there\t");
+     System.out.println("Whatsup there\r");
+     System.out.println("Welcome here\b");
+     System.out.println("Morning\f");
+	   
+	   int x = 20;
+	   int y = 30;
+	   System.out.println(x+y);
+	   
+	   int a = 20;
+	   String b = "30";
+	   System.out.println(a+b);
+	   
+	   String m = "20";
+	   String n = "30";
+	   System.out.println(m+n);
+	}
+}
