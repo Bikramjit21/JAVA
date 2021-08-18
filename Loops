@@ -1,0 +1,38 @@
+public class Main
+{
+	public static void main(String[] args) {
+        int i = 0;
+        while (i < 5) {
+            System.out.println(i);
+            i++;
+        }
+        
+        System.out.println("\n");
+        
+        int j = 0;
+        do {
+            System.out.println(j);
+          j++;
+        }
+        while (j < 5);
+        
+        System.out.println("\n");
+        
+        for (int k = 0; k < 5; k++) {
+            System.out.println(k);
+        }
+        
+        System.out.println("\n");
+         
+        for (int p = 0; p <= 10; p += 2) {
+            System.out.println(p);
+        }
+        
+        System.out.println("\n");
+        
+        String[] students = {"Raj", "Subham", "Pankaj", "Aman"};
+        for (String s : students) {
+            System.out.println(s);
+        }
+    }
+}
