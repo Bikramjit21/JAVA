@@ -1,0 +1,16 @@
+public class Main
+{
+	public static void main(String[] args) {
+        int a = 20;
+        int b = 30;
+        double c = -5.99d;
+        System.out.println(Math.max(a,b));
+        System.out.println(Math.min(a,b));
+        System.out.println(Math.sqrt(b));
+        System.out.println(Math.abs(c));
+        System.out.println(Math.random());
+        
+        int r = (int)(Math.random() * 99);
+        System.out.println(r);
+	}
+}
