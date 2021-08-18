@@ -1,0 +1,147 @@
+public class Main
+{
+	public static void main(String[] args) {
+	  // Widening Casting -> Automatic -> Smaller-Larger Type
+	  // Byte -> Short,Int,Long,Float,Double
+		byte b = 100;
+		short s = b;
+		int i = b;
+		long l = b;
+		float f = b;
+		double d = b;
+		System.out.println(b);
+		System.out.println(s);
+		System.out.println(i);
+		System.out.println(l);
+		System.out.println(f);
+		System.out.println(d);
+		System.out.println("\n");
+		
+    // Short -> Int,Long,Float,Double
+		short s1 = 1000;
+		int i1 = s1;
+		long l1 = s1;
+		float f1 = s1;
+		double d1 = s1;
+		System.out.println(s1);
+		System.out.println(i1);
+		System.out.println(l1);
+		System.out.println(f1);
+		System.out.println(d1);
+		System.out.println("\n");
+		
+    // Char -> Int,Long,Float,Double
+		char c = 'A';
+		int i2 = c;
+		long l2 = c;
+		float f2 = c;
+		double d2 = c;
+		System.out.println(c);
+		System.out.println(i2);
+		System.out.println(l2);
+		System.out.println(f2);
+		System.out.println(d2);
+		System.out.println("\n");
+		
+    // Int -> Long,Float,Double
+		int i3 = 10000;
+		long l3 = i3;
+		float f3 = i3;
+		double d3 = i3;
+		System.out.println(i3);
+		System.out.println(l3);
+		System.out.println(f3);
+		System.out.println(d3);
+		System.out.println("\n");
+		
+    // Long -> Float,Double
+		long l4 = 100000000;
+		float f4 = l4;
+		double d4 = l4;
+		System.out.println(l4);
+		System.out.println(f4);
+		System.out.println(d4);
+		System.out.println("\n");
+		
+    // Float -> Double
+		float f5 = 100088444.87654321f;
+		double d5 = f5;
+		System.out.println(f5);
+		System.out.println(d5);
+		System.out.println("\n");
+		
+    // Narrowing Casting -> Manual -> Larger-Smaller Type
+    // Short -> Byte,Char
+		short s2 = 10;
+		byte b1 = (byte)s2;
+		char c1 = (char)s2;
+		System.out.println(s2);
+		System.out.println(b1);
+		System.out.println(c1);
+		System.out.println("\n");
+		
+    // Char -> Byte,Short
+		char c2 = 'e';
+		byte b2 = (byte)c2;
+		short s3 = (short)c2;
+		System.out.println(s3);
+		System.out.println(b2);
+		System.out.println(c2);
+		System.out.println("\n");
+		
+    // Int -> Byte,Short,Char
+		int i4 = 200;
+	  byte b3 = (byte)i4;
+	  short s4 = (short)i4;
+	  char c3 = (char)i4;
+	  System.out.println(i4);
+		System.out.println(b3);
+		System.out.println(s4);
+		System.out.println(c3);
+		System.out.println("\n");
+		
+    // Long -> Byte,Short,Char,Int
+		long l5 = 125;
+	  byte b4 = (byte)l5;
+	  short s5 = (short)l5;
+	  char c4 = (char)l5;
+	  int i5 = (int)l5;
+	  System.out.println(l5);
+		System.out.println(b4);
+		System.out.println(s5);
+		System.out.println(c4);
+		System.out.println(i5);
+		System.out.println("\n");
+		
+    // Float -> Byte,Short,Char,Int,Long
+		float f6 = 189.9f;
+		byte b5 = (byte)f6;
+	  short s6 = (short)f6;
+	  char c5 = (char)f6;
+	  int i6 = (int)f6;
+	  long l6 = (long)f6;
+	  System.out.println(f6);
+		System.out.println(b5);
+		System.out.println(s6);
+		System.out.println(c5);
+		System.out.println(i6);
+		System.out.println(l6);
+		System.out.println("\n");
+		
+    // Double -> Byte,Short,Char,Int,Long,Float
+		double d6 = 1212.8998;
+		byte b6 = (byte)d6;
+	  short s7 = (short)d6;
+	  char c6 = (char)d6;
+	  int i7 = (int)d6;
+	  long l7 = (long)d6;
+	  float f7 = (float)d6;
+		System.out.println(d6);
+		System.out.println(b6);
+		System.out.println(s7);
+		System.out.println(c6);
+		System.out.println(i7);
+		System.out.println(l7);
+		System.out.println(f7);
+	}
+}
