@@ -1,7 +1,7 @@
 public class Main
 {
     static void calculator(int a, int b, String r){
-        if(r=="+"){
+    	if(r=="+"){
             System.out.println(a+b);
         }
         else if(r=="-"){
@@ -13,9 +13,11 @@ public class Main
         else if(r=="/"){
             System.out.println(a/b);
         }
+        else{
+            System.out.println(a%b);
+    	}
     }
-	public static void main(String[] args) {
-	    calculator(12,3,"/");
-	    
-	}
+    public static void main(String[] args) {
+	    calculator(10,3,"%");
+    }
 }
