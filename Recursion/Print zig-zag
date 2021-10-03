@@ -1,0 +1,22 @@
+import java.io.*;
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		prizz(n);
+	}
+	
+	public static void prizz(int n){
+	    if(n==0){
+	        return;
+	    }
+	    System.out.print(n+" ");
+	    prizz(n-1);
+	    System.out.print(n+" ");
+	    prizz(n-1);
+	    System.out.print(n+" ");
+	}
+}
